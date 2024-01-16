@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script LANGUAGE="javascript" src="../js/js.js"></script>
+  <title>Contact</title>
+</head>
+
+<body>
+  <!-- NavBar -->
+
+  <nav class="navbar">
+    <div class="inner-width">
+
+      <div class="navbar-menu FR">
+        <a href="../index.html">Home</a>
+        <a href="../index.html">Compétance</a>
+        <a href="../index.html">Expérience</a>
+        <a href="../index.html">Éducation</a>
+        <a href="quiz.html" target="_blank">Quiz</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+
+
+    </div>
+  </nav>
+  <!-- Contact -->
+
+  <section id="contact">
+    <div class="inner-width">
+      <h1 class="section-title FR">Contactez moi !</h1>
+
+
+      <div class="contact-info">
+        <div class="item">
+          <i class="fas fa-mobile-alt" id="item1"></i>
+          +216 93 058 069
+        </div>
+
+        <div class="item" onclick="window.location.href='mailto:amina.baraket6@gmail.com'">
+          <i class="fas fa-envelope" id="item2"></i>
+          amina.baraket6@gmail.com
+        </div>
+
+        <div class="item">
+          <i class="fas fa-map-marker-alt" id="item3"></i>
+          Sfax, Tunisie
+        </div>
+      </div>
+
+      <form action="contact.html" method="POST" class="contact-form FR">
+        <input type="text" class="nameZone" name="name" placeholder="Votre nom" />
+        <input type="text" class="emailZone" name="email" placeholder="Votre email" />
+        <input type="text" class="subjectZone" name="subject" placeholder="Objet" />
+        <textarea class="messageZone" name="message" placeholder="Message"></textarea>
+
+        <div class="statusZone"></div>
+
+        <input type="submit" value="Envoyer" class="btn submit FR" onclick="myFunction()" />
+
+
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="inner-width">
+      <div class="copyrights FR">
+        &copy; 2023 | Créé par <a href="#">Amina Ben Baraket</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Remonter en haut  -->
+
+  <button class="goTop"><i class="fas fa-arrow-up"></i></button>
+</body>
+
+</html>
